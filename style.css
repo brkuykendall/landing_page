@@ -1,1 +1,146 @@
-landing page
+* {
+  box-sizing: border-box;
+  font-family: Roboto, sans-serif;
+}
+
+body {
+  margin: 0;
+}
+
+h1 {
+  margin: 0;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: lightgray;
+}
+
+p {
+  font-size: 24px;
+}
+
+button {
+  background-color: #3b82f6;
+  color: white;
+  font-weight: bold;
+  border: 1px solid #1f2937;
+  border-radius: 8px;
+  padding: 10px 20px;
+}
+
+button:hover {
+  cursor: pointer;
+  transform: scale(1.02);
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 48px;
+  font-weight: 900;
+  padding: 4px 50px;
+}
+
+.background-dark {
+  background-color: #1f2937;
+  color: white;
+}
+
+body > * {
+  padding-left: 10% !important;
+  padding-right: 10% !important;
+}
+
+.text-white {
+  color: white;
+}
+
+.header-links {
+  display: flex;
+  gap: 9px;
+  font-weight: lighter;
+  font-size: 16px;
+  justify-content: space-around;
+  font-weight: 200;
+}
+
+.section-one {
+  display: flex;
+  justify-content: space-between;
+  min-height: 20vh;
+  padding: 50px;
+}
+
+.left-side {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: start;
+}
+
+.text-one {
+  display: flex;
+  flex-direction: column;
+}
+
+.section-two {
+  min-height: 10vh;
+  text-align: center;
+}
+
+.section-two-images {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 28px;
+}
+
+.section-three {
+  display: flex;
+  background-color: lightgrey;
+  justify-content: center;
+  align-items: center;
+  min-height: 50vh;
+  font-style: italic;
+  font-size: 32px;
+}
+
+.section-four {
+  display: flex;
+  background-color: #3b82f6;
+  border-radius: 10px;
+  width: 70%;
+  justify-content: space-around;
+  font-size: 16px;
+  margin: 50px auto;
+  padding: 40px;
+}
+
+.cta {
+  font-weight: bold;
+  color: white;
+  text-align: center;
+}
+
+.sign-up-two {
+  border: 1px solid white;
+}
+
+footer {
+  text-align: center;
+  padding: 40px;
+}
+
+/* @media only screen and (max-width: 800px) {
+  body {
+    display: none;
+  }
+} */
